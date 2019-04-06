@@ -1,0 +1,120 @@
+@media (max-width: 575px){
+    nav button i{
+        color: #f9bb20;
+    }
+
+    
+
+    nav ul{
+        background: rgba(255, 255, 255,1);
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    #banner-part h1{
+        font-size: 19px;
+        padding: 10px 48px;
+        padding-right: 20px;
+    }
+
+    #banner-part p{
+        font-size: 14.7px;
+    }
+
+    #agents-part .title{
+        margin-top: 0;
+    }
+
+    #agents-part a{
+        font-size: 12px;
+        margin-left: -5px;
+        padding: 10px 13.5px;
+    }
+
+    #agents-part img{
+        margin-top: 15px;
+    }
+
+    #best-agency #accordionExample{
+        margin-top: 30px;
+    }
+
+    #best-agency h4{
+        font-size: 15px;
+    }
+
+    #best-agency p{
+        font-size: 14px;
+    }
+
+    #featured-agency{
+        margin-top: 60px;
+    }
+
+    #blog{
+        padding-top: 60px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    #banner-part h1{
+        font-size: 19px;
+        padding: 15px 51px;
+        padding-right: 21px;
+    }
+
+    #banner-part a{
+        font-size: 14px;
+        padding: 15px;
+        margin-left:4px;
+    }
+
+    #agents-part a{
+        font-size: 14px;
+        margin-left: -4px;
+        padding: 10px 4px;
+    }
+
+    #agents-part img{
+        margin-top: 15px;
+    }
+
+    #agent-list ul li a{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #banner-part h1{
+        padding: 15px 65px;
+        padding-right: 30px;
+    }
+
+    #agents-part a{
+        padding: 10px 11px;
+    }
+
+    #agents-part img{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+
+    nav ul li a{
+        margin-left: 9px;
+    }
+
+    #agents-part a{
+        padding: 10px 6px;
+    }
+
+    .blog-item h3 a {
+        font-size: 14px;
+        padding-top: 6px;
+        line-height: 21px;
+    }
+}
